@@ -226,7 +226,7 @@ public class ScreenDisplay {
 	private void endThisLoop(){
 		//FPS meter
 		if (time <= System.currentTimeMillis() - 1000) {			
-			Display.setTitle("Simulating gravity @ " + frameNumber + " FPS"); //Normal
+			Display.setTitle("Calculating priems @ " + frameNumber + " FPS"); //Normal
 			FPS = frameNumber;
 			frameNumber = 0;
 			time = System.currentTimeMillis();
